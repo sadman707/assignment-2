@@ -1,7 +1,7 @@
-/* Fonts */
+/*-------------- Fonts-------------- */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
-/* common styles */
-/* Header Styles */
+/* --------------common styles-------------- */
+/* --------------Header Styles-------------- */
 body{
     font-family: 'Poppins', sans-serif;
     margin: 0;
@@ -55,14 +55,14 @@ header{
     color: white;
 }
 
-/* Header Image style */
+/*-------------- Header Image style-------------- */
 .header-image img{
     width: 450px;
     height: 400px;
     margin-top: 130px;
     
 }
-/* Players banner and details */
+/* --------------Players banner and details-------------- */
 
 .all-players{
     margin-top: 50px;
@@ -83,12 +83,7 @@ header{
     margin: 14px;
     background: #FFFFFF;
     box-shadow: 5px 5px 5px 5px rgb(230, 225, 225);
-    border-radius: 2px;
-    
-    
-    
-    
-    
+    border-radius: 2px;  
     
 }
 .player-banner{
@@ -147,3 +142,69 @@ header{
 .copyright p{
     width: 300px;
 }
+/*-------------- Media queries-------------- */
+/*-------------- For mobile devices-------------- */
+@media only screen and (max-width:688px) 
+{
+    .header-container{
+        flex-direction: column;
+        background-color: rgb(63, 63, 209);
+    }
+    .header-title .title{
+        width: 415px;
+        font-size: 50px;
+    }
+    .main-header .header-title{
+        grid-template-columns: repeat(1, 1fr);
+        margin-top: -64px;
+        
+    }
+    .main-header{
+        margin-left: 235px;
+    }
+    .header{
+        width: 633px;
+
+    }
+    .main-button{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .header-image img{
+        width: 378px;
+    height: 374px;
+    margin-top: -20px;
+    margin-left: 229px
+    }
+    .players{
+        display: flex;
+        margin-top: -5px;
+        align-items: flex-end;
+        flex-direction: column;
+        width: 100%;
+        margin-left: 148px;
+        
+    }
+    .footer-box{
+        margin-top: 54px;
+    }
+    .footer-logo{
+        width: 233px;
+        height: 65px;
+        justify-content: center;
+        margin-left: 276px;
+        text-align: center;
+    }
+    .icon-2{
+        margin-bottom: 17px;
+        margin-left: 360px;
+        font-size: 26px;
+        width: 300px;
+    }
+    .copyright{
+        margin-left: 327px;
+    }
+   
+}
+/* ----------------------------------------------------------------------
+                 ALL STYLES ARE FINISHED HERE :)
+-------------------------------------------------------------------------- */
