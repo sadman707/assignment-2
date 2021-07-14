@@ -113,12 +113,14 @@ header{
     font-size: 13px;
     line-height: 26px;
 }
-/* Footer */
+/* ---------------Footer------------------- */
 .footer-box{
     width: 483.87px;
     height: 213px;
     margin-top: 140px;
     margin-bottom: 40px;
+    margin-left: 60px;
+    
 }
 .footer-logo{
     width: 483.87px;
