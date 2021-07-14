@@ -1,0 +1,149 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+/* common styles */
+/* Header Styles */
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    
+}
+header{
+    background-color: rgb(63, 63, 209);
+}
+.main-header{
+    margin-top: 153px;
+    margin-bottom: 86px;
+}
+.header .header-container:hover{
+    transform: scale(1.1);
+    transition: transform 2s ease-in-out;
+}
+
+.header-container{
+    display: flex;
+    justify-content: center;
+    
+}
+.title{
+    
+}
+.header-title .title{
+    width: 485px;
+    height: 230px;
+    line-height: 80px;
+    font-weight: 700;
+    font-size: 60px;
+    color: white;
+}
+.main-button{
+    background-color: #E02C6D;
+    width: 118px;
+    height: 25px;
+    padding: 10px 24px;
+    display: flex;
+    
+}
+.main-button .button{
+    text-decoration: none;
+    color: white;
+    width: 88px;
+    height: 24px;
+    
+}
+.icon-1{
+    padding-left: 15px;
+    color: white;
+}
+
+/* Header Image style */
+.header-image img{
+    width: 450px;
+    height: 400px;
+    margin-top: 130px;
+    
+}
+/* Players banner and details */
+
+.all-players{
+    margin-top: 50px;
+    
+    
+}
+.players{
+    display: flex;
+    justify-content: center;
+    margin-top: -5px;
+    
+    
+}
+.player{
+    width: 220px;
+    height: 330px;
+    padding: 10px;
+    margin: 14px;
+    background: #FFFFFF;
+    box-shadow: 5px 5px 5px 5px rgb(230, 225, 225);
+    border-radius: 2px;
+    
+    
+    
+    
+    
+    
+}
+.player-banner{
+    overflow: hidden;
+}
+.player-banner img{
+    width: 218px;
+    height: 186px;
+    
+    
+}
+.player .player-banner:hover{
+    transform: scale(1.1);
+    transition: transform 2s ease-in-out;
+}
+.player-name{
+    font-size: 20px;
+    margin-bottom: -6px;
+    margin-top: 6px;
+    
+}
+.player-details{
+    width: 218px;
+    height: 186px;
+}
+.details{
+    font-size: 13px;
+    line-height: 26px;
+}
+/* Footer */
+.footer-box{
+    width: 483.87px;
+    height: 213px;
+    margin-top: 140px;
+    margin-bottom: 40px;
+}
+.footer-logo{
+    width: 483.87px;
+    height: 110px;
+    justify-content: center;
+    margin-left: 260px;
+    text-align: center;
+}
+.icon-2{
+    margin-left: 383px;
+    font-size: 26px;
+    width: 300px;
+}
+.icon-2 div{
+    color: #969BAB;
+}
+.copyright{
+    justify-content: center;
+    margin-left: 380px;
+}
+.copyright p{
+    width: 300px;
+}
